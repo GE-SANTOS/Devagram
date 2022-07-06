@@ -15,6 +15,7 @@
   --cinza3: #4d4c4d;
   --cinza4: #333333;
   --branco: #fff;
+  --vermelho: #ff0000;
 }
 
 * {
@@ -30,4 +31,18 @@ body {
 
 .oculto {
   display: none !important;
+}
+
+input {
+  &::placeholder,
+  &:-ms-input-placeholder,
+  &::-ms-input-placeholder {
+    color: var(--cinza2);
+  }
+}
+
+.mensagemErro {
+  color: var(--vermelho);
+  margin: 5px 0 0;
+  font-size: 80%;
 }
