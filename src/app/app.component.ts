@@ -1,10 +1,4 @@
 import { Component } from '@angular/core';
-import {
-  FormBuilder,
-  FormGroup,
-  Validators,
-  AbstractControl,
-} from '@angular/forms';
 
 @Component({
   selector: 'app-root',
